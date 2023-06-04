@@ -28,7 +28,7 @@ app.use("/api/v1/users", userRouter);
 app.use("/api/v1/task", taskRouter);
 
 app.get("/", (req, res) => {
-  res.send("hell");
+  res.send("server is working");
 });
 
 // error handling middleware
